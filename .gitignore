@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cài đặt môi trường ảo
+venv/
+env/
+ENV/
+*.env
+
+# Thư mục chứa các gói đã cài đặt
+lib/
+libs/
+
+# Các tệp cấu hình IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Tệp cấu hình hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Tệp log
+*.log
