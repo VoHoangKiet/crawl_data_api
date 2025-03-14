@@ -6,10 +6,10 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://crawlclient.vercel.app/"],  # Chỉ định origin được phép
+    allow_origins=["https://crawlclient.vercel.app"],  # Cho phép các domain trên thực hiện request
     allow_credentials=True,
-    allow_methods=["*"],  # Cho phép tất cả phương thức (GET, POST, v.v.)
-    allow_headers=["*"],  # Cho phép tất cả header
+    allow_methods=["*"],  # Cho phép tất cả các phương thức HTTP
+    allow_headers=["*"],
 )
 
 # app.include_router(user.router, prefix="/api")
