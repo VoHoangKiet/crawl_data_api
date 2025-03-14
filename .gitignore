@@ -26,3 +26,4 @@ Thumbs.db
 
 # Tệp log
 *.log
+.vercel
